@@ -5,9 +5,9 @@ import Router from './router';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  
       <Router />
-  </React.StrictMode>,
+ ,
   document.getElementById('root')
 );
 

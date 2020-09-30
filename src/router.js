@@ -10,9 +10,9 @@ import NoMatch from  './pages/nomatch/'
 import Loadings from './pages/ui/loadings'
 import Notice  from  './pages/ui/notice'
 import Messages from  './pages/ui/messages'
-import Tabs  from  './pages/ui/tabs'
+import Tab  from  './pages/ui/tabs'
 import Gallery  from  './pages/ui/gallery'
-import Carousel  from  './pages/ui/carousel'
+import Carousels  from  './pages/ui/carousels'
 import FormLogin from './pages/form/login'
 import FormRegister from './pages/form/register'
 import BasicTable from './pages/table/basicTable'
@@ -46,9 +46,9 @@ export default class Router extends React.Component{
                                     <Route path="/ui/loadings" component={Loadings} />
                                     <Route path="/ui/notification" component={Notice} />
                                     <Route path="/ui/messages" component={Messages} />
-                                    <Route path="/ui/tabs" component={Tabs} />
+                                    <Route path="/ui/tabs" component={Tab} />
                                     <Route path="/ui/gallery" component={Gallery} />
-                                    <Route path="/ui/carousel" component={Carousel} />
+                                    <Route path="/ui/carousel" component={Carousels} />
                                     <Route path="/form/login" component={FormLogin} />
                                     <Route path="/form/reg" component={FormRegister} />
                                     <Route path="/table/basic" component={BasicTable} />
